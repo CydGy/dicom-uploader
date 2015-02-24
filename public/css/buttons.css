@@ -1,0 +1,112 @@
+.button1 {
+  display: inline-block;
+  margin: 0;
+  padding: 0.3em 0.6em;
+
+  white-space: nowrap;
+  overflow: visible;
+  text-align: center;
+  text-decoration: none;
+  font-size: inherit;
+  line-height: 1;
+
+  cursor: pointer;
+  outline: none;
+  border: 1px solid;
+  border-radius: 0.2em;
+}
+
+.button1:hover {
+  text-decoration: none;
+}
+
+.button1::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.button1.icon:before {
+  content: "";
+  float: left;
+
+  width: 1.2em;
+  height: 1em;
+
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  opacity: 0.8;
+}
+
+
+/**
+ * colors
+ */
+
+.button1.grey {
+  color: #333;
+  text-shadow: 1px 1px 0 #fff;
+  background-color: #fdfdfd;
+  background-image: linear-gradient(#fdfdfd, #f0f0f0);
+  border-color: #d4d4d4;
+}
+
+.button1.grey:hover {
+  background-color: #f2f2f2;
+  background-image: linear-gradient(#fdfdfd, #dcdcdc);
+}
+
+.button1.grey:focus {
+  /* box-shadow? */
+  box-shadow: 0 0 5px rgba(81, 122, 223, 0.5);
+  border-color: #37b8f8;
+}
+
+.button1.grey:active,
+.button1.grey.active {
+  background-image: none;
+  background-color: #c8c8cf;
+  text-shadow: 1px 1px 0 #c5c5c4;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+  border-color: #a8a8a8;
+}
+
+
+/* green */
+
+.button1.green {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #60b044;
+  background-image: linear-gradient(#8add6d, #60b044);
+  border-color: #5ca941;
+}
+
+.button1.green:hover {
+  background-color: #569e3d;
+  background-image: linear-gradient(#79d858, #569c3d);
+  border-color: #4a993c;
+}
+
+.button1.green:focus {
+  box-shadow: 0 0 5px rgba(81, 167, 232, 0.5);
+}
+
+.button1.green:active,
+.button1.green.active {
+  background-image: none;
+  background-color: #569e3d;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+  border-color: #418737;
+}
+
+
+/* blue */
+
+.button1.blue {
+  color: #fff;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  background-color: #3c8dde;
+  background-image: linear-gradient(#599bdc, #3072b3);
+  border-color: #3072b3;
+  border-bottom-color: #2a65a0;
+}

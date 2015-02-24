@@ -1,0 +1,121 @@
+body {
+  background: #fff;
+  overflow-y: scroll;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #272727;
+}
+
+main {
+  width: 1000px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+a {
+  color: #272727;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  background: #f0f0f0;
+}
+
+header nav {
+  width: 1000px;
+  height: 90px;
+  padding: 0 12px;
+  margin: 0 auto;
+  line-height: 70px;
+}
+
+header nav h1 {
+  float: left;
+  width: 180px;
+  height: 90px;
+} 
+
+header nav h1 a {
+  margin-top: 11px;
+  display: block;
+}
+
+header nav form {
+  float: right;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+header nav form input {
+  margin-right: 8px;
+  padding: 6px 15px 6px 30px;
+  width: 270px;
+  background: url('/search.png') no-repeat 8px 6px;
+  border: 1px solid #d0d0d0;
+  background-color: #fcfcfc;
+  color: #373737;
+}
+
+header nav form button {
+  height: 29px;
+}
+
+main {
+  margin: 40px auto;
+}
+
+#dropzone input[name="tags"] {
+  padding: 2px 4px;
+  width: 180px;
+  border: 1px solid #d0d0d0;
+  color: #454545;
+}
+
+/**
+ * images
+ */
+
+#images {
+  margin-top: 40px;
+}
+
+#images a {
+  display: inline-block;
+  padding: 8px;
+}
+
+#images a img {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+/**
+ * image
+ */
+
+#image img {
+  display: block;
+  max-width: 1000px;
+  max-height: 1500px;
+}
+
+#image div.info {
+  margin-top: 20px;
+}
+
+#image div.info p {
+  color: #272727;
+  margin: 4px 0;
+}
+
+#image div.info p span {
+  font-weight: bold;
+  color: #555;
+}
